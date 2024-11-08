@@ -42,6 +42,12 @@ struct CallTakeSystem {
 	void* P = NULL;
 };
 
+struct CallCanonSystem {
+	void* P = NULL;
+};
+struct CallDestienyBlowSystem {
+	void* P = NULL;
+};
 struct LongUseBaseSystem {
 	CallMilionArthur CMA;
 	CallFreeScenarioSystem CF;
@@ -53,4 +59,6 @@ struct LongUseBaseSystem {
 	CallGraphicSystem CG;
 	CallSoundSystem CS;
 	CallNetWarkSystem CN;
+	CallCanonSystem CCA;
+	CallDestienyBlowSystem CD;
 };

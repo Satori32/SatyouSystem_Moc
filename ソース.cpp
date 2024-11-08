@@ -48,7 +48,20 @@ struct CallCanonSystem {
 struct CallDestienyBlowSystem {
 	void* P = NULL;
 };
-struct LongUseBaseSystem {
+
+struct CallDestinySystem{
+	void* P = NULL;
+};
+struct CallUseParsonSystem {
+	void* P = NULL;
+};
+struct CallMokuMokuSystem {//call MOKUMOKU.
+	void* P = NULL;
+};
+struct CallFiveSenceSystem {
+	void* P = NULL;
+};
+struct LongUseBaseSystem {//this structs valiable name is ƒCƒ“ƒ`ƒL.
 	CallMilionArthur CMA;
 	CallFreeScenarioSystem CF;
 	CallActiveTimeBattleSystem CAT;
@@ -61,4 +74,8 @@ struct LongUseBaseSystem {
 	CallNetWarkSystem CN;
 	CallCanonSystem CCA;
 	CallDestienyBlowSystem CD;
+	CallDestinySystem CDS;
+	CallUseParsonSystem CU;
+	CallMokuMokuSystem CMM;
+	CallFiveSenceSystem CFS;
 };
